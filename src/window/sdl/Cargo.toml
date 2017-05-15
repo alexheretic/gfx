@@ -36,8 +36,5 @@ gfx_device_gl = { path = "../../backend/gl", version = "0.14" }
 name = "window"
 path = "examples/window.rs"
 
-# Currently there is an issue with cargo and dev-dependencies:
-# https://github.com/rust-lang/cargo/issues/860
-# TODO: move gfx to [dev-dependencies] once it gets resolved.
 [dev-dependencies]
 gfx = { path = "../../render", version = "*" }
