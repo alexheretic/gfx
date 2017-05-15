@@ -116,6 +116,10 @@ name = "triangle"
 path = "examples/triangle/main.rs"
 
 [[example]]
+name = "triangle-sdl"
+path = "examples/triangle-sdl/main.rs"
+
+[[example]]
 name = "instancing"
 path = "examples/instancing/main.rs"
 
@@ -143,3 +147,4 @@ genmesh = "0.4"
 noise = "0.1"
 image = "0.13"
 winit = "0.6"
+sdl2 = "0"
